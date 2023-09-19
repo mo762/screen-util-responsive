@@ -16,7 +16,7 @@ class CustomContainer1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 15.w, vertical: 10.h),
-      margin: EdgeInsets.symmetric(horizontal: 10.w),
+      margin: EdgeInsets.symmetric(horizontal: 10.w, vertical: 20.h),
       width: double.infinity,
       height: 110.h,
       decoration: BoxDecoration(
@@ -35,7 +35,7 @@ class CustomContainer1 extends StatelessWidget {
                 'Flutter allows you to create apps\nthat self-adapt',
                 style: TextStyle(color: Colors.grey, fontSize: 10.sp),
               ),
-              SizedBox(height: 10.h),
+              SizedBox(height: 15.h),
               Row(
                 children: [
                   Icon(icon, color: iconColor, size: 11),
